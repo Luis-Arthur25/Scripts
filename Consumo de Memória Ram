@@ -1,0 +1,13 @@
+#! /bin/bash
+
+#O objetivo do script abaixo é mensurar o uso de memória ram
+
+echo "Consumo de Memoria Ram"
+echo
+echo "Data" "$(date +\%d/\%m/\%Y)"
+echo
+echo "Hora" "$(date +\%H:\%M:\%S)"
+echo
+
+#Lista de Processos de Maior Consumo de Mémoria Ram
+ps -e -o pid,%mem --sort=-%mem | head -n 16
