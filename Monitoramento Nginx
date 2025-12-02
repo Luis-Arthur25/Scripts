@@ -1,0 +1,11 @@
+#! /bin/bash
+
+if pgrep nginx &> /dev/null
+then
+        echo "Nginx esta operando $( date +"%d/%m/%Y %H:%M:%S")"
+
+else
+        echo "Nginx nao esta operando $( date +"%d/%m/%Y %H:%M:%S")"
+fi
+
+
