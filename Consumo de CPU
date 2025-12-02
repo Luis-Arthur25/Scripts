@@ -1,0 +1,13 @@
+#! /bin/bash
+
+#O objetivo do script abaixo é mensurar o uso da CPU
+
+echo "Consumo da CPU"
+echo
+echo "Data" "$(date +\%d/\%m/\%Y)"
+echo "Hora" "$(date +\%H:\%M:\%S)"
+echo
+
+#Lista de Processos de Maior Consumo da CPU
+ps -eo pid,user,%cpu,lstart,comm --sort=-%cpu | head -n 11
+
