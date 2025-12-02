@@ -6,7 +6,14 @@ Scripts para uso no CLI de distribuições Linux
 
 Este repositório reúne diversos scripts criados para facilitar tarefas no terminal — automatização, monitoramento, utilitários e soluções rápidas para problemas comuns.
 
-# Funcionalidades / O que tem aqui
+## ✅ Funcionalidades / O que há no repositório
 
-- Ferramentas para monitoramento de recursos (CPU, uso de memória, etc)  
-- Scripts utilitários voltados para linha de comando  
+- Scripts de automação de tarefas repetitivas  
+- Ferramentas de monitoramento de recursos (CPU, memória, etc)  
+- Utilitários para linha de comando úteis no dia a dia  
+- Exemplos de uso prontos para várias situações em Linux  
+
+## 🧰 Tecnologias / Detalhes técnicos
+
+- Linguagem: **Shell Script / Bash**  
+- Compatível com distribuições Linux  
